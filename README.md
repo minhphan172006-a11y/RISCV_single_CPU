@@ -139,4 +139,8 @@ Simulation environment used to verify the functionality of the RISC-V processor.
 4. **Write Back** – The ALU result is written back to the Register File if required.
 5. **Update PC** – The PC is incremented by 4 (`PC + 4`) to fetch the next instruction.
 
+Overall Block Diagram
+
+<img width="1611" height="768" alt="image" src="https://github.com/user-attachments/assets/4a9f882f-2525-4e10-ae07-780cd2001d11" />
+
 
