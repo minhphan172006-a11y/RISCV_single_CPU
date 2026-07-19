@@ -131,3 +131,12 @@
 
 Simulation environment used to verify the functionality of the RISC-V processor.
 
+# 🔄 Overall Operation Flow
+
+1. **Fetch** – The Program Counter (PC) sends the instruction address to the Instruction Memory.
+2. **Decode** – The Control Unit decodes the instruction, while the Register File and Immediate Generator prepare the required operands.
+3. **Execute** – The ALU performs arithmetic or logical operations based on the control signals.
+4. **Write Back** – The ALU result is written back to the Register File if required.
+5. **Update PC** – The PC is incremented by 4 (`PC + 4`) to fetch the next instruction.
+
+
